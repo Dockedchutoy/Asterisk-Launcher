@@ -22,14 +22,15 @@ except IndexError:
 
 
 while True:
-    cmd = input("*> ")
-    if cmd == "*":
-        print("Hello World")
-    elif cmd == " * ":
-        print(random() * 2147483647)
-    elif cmd == "*+*":
-        while True:
-            pass
+    if filemode == False:
+        cmd = input("*> ")
+        if cmd == "*":
+            print("Hello World")
+        elif cmd == " * ":
+            print(random() * 2147483647)
+        elif cmd == "*+*":
+            while True:
+                pass
 
     #File Mode Interpreter
 
