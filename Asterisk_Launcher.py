@@ -4,6 +4,7 @@ from random import random
 import sys
 
 filemode = False
+cmd = ""
 
 print("* Launcher 2022")
 
